@@ -1,0 +1,22 @@
+@keyframes stars_anim {
+
+    0%  {left: 0; }
+    100%    {left: -100%; }
+}
+
+.MainOuter{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin: 0;
+}
+
+.MainOuter .row-animated{
+    background: url('../priv_images/demo.jpg');
+    width: 200vw;
+    height: 100%;
+    position: absolute;
+    background-size:50% 50%;
+    margin: 0;
+    animation: stars_anim 5s linear infinite;
+}

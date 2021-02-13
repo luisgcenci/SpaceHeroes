@@ -1,0 +1,38 @@
+
+{
+    "heroes": [
+        {   
+            "id": 1,
+            "name":"Mars",
+            "attack_power": 70,
+            "defense_power": 80,
+            "description": "Surrounded by two moons, Phobos and Deimos. It's made of about 95% of carbon dioxide, 3% nitrogen and 1.6% argon.",
+            "skills": {
+                "water":"./pub_images/icons/water.png"
+            },
+            "img_url": "./pub_images/heroes/mars.png"
+        },
+        {
+            "id": 2,
+            "name":"Moon",
+            "attack_power": 50,
+            "defense_power": 60,
+            "description": "To the Earth it only has one face. It's made of oxygen and silicon.",
+            "skills": {
+                "moonquakes":"./pub_images/icons/quake.png"
+            },
+            "img_url": "./pub_images/heroes/moon.png"
+        },
+        {   
+            "id": 3,
+            "name":"Antares",
+            "attack_power": 100,
+            "defense_power": 100,
+            "description": "550 lightyears away from Earth in the constellation of Scorpius. It's made of hydrogen and helium.",
+            "skills": {
+                "fire":"./pub_images/icons/fire.png"
+            },
+            "img_url": "./pub_images/heroes/antares.png"
+        }
+    ]
+}

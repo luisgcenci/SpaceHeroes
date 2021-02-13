@@ -1,0 +1,29 @@
+@keyframes rat_anim {
+
+    0%   {transform:rotate(0deg);right:0; top:0}
+    25%  {transform:rotate(-100deg);right:0; top:-50px}
+    50%  {transform:rotate(-100deg);right:1250px; top:700px}
+    75%  {transform:rotate(210deg);right:0; top:-50px}
+    100%   {transform:rotate(0deg);right:0; top:0}
+}
+
+.Mouse{
+    height:10%;
+    margin:0;
+}
+
+.ratinho{
+    position:relative;
+    padding-top:100px;
+    animation-name:rat_anim;
+    animation-duration: 20s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-delay:1s;
+}
+
+.ratinho img{
+    width:100px;
+    height:100px;
+}
+
