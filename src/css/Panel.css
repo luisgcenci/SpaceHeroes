@@ -102,3 +102,15 @@ h6{
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width:670px){
+    h6{
+        font-size:10px;
+    }
+    p{
+        font-size:8px;
+    }
+    h4{
+        font-size: 12px;
+    }
+}

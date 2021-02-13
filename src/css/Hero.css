@@ -52,3 +52,10 @@
         height:150px;
     }
 }
+
+@media only screen and (max-height:550px){
+    .hero-info img{
+        width:90px;
+        height:150px;
+    }
+}
