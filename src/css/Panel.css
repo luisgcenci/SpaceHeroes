@@ -90,3 +90,15 @@ h6{
 .welcome-message{
     height:100%;
 }
+
+@media only screen and (max-height:550px){
+    h6{
+        font-size:10px;
+    }
+    p{
+        font-size:8px;
+    }
+    h4{
+        font-size: 12px;
+    }
+}
