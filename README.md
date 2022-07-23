@@ -15,12 +15,12 @@ I did the heroes design (I know it's not that good haha but I like it) with Inks
 After all, it was pretty fun and challenging :))).
 
 # Set Up
-## Clone this repo and install dependencies
+#### Clone this repo and install dependencies
 ```
 git clone https://github.com/luisgcenci/SpaceHeroes.git
 yarn install
 ```
-## Run 
+# How to Run 
 ```
 yarn start
 ```
